@@ -27,8 +27,8 @@ int main(int argc, char **argv){
     // ifstream in(argv[1]);
     // ofstream out(argv[2]);
     char temp[4][255];
-    ifstream in("D:\\Documents\\CodeFiles\\Mars_for_cpu\\machinecode.txt");
-    ofstream out("D:\\Documents\\CodeFiles\\Mars_for_cpu\\machinecodevschandled.txt");
+    ifstream in("D:\\Documents\\CodeFiles\\Mars_for_cpu\\TempFile\\machinecode.txt");
+    ofstream out("D:\\Documents\\CodeFiles\\Mars_for_cpu\\TempFile\\machinecodevschandled.txt");
     int count=0;
     while(in.read(temp[count%4],8)){
         temp[count % 4][8]='\0';

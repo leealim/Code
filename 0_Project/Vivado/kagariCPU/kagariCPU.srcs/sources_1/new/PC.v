@@ -39,7 +39,7 @@ module PC(
     
     always@(posedge clk or negedge rstn) begin
         if(!rstn)pc_value <= 32'hbfc00000;
-        else if(pc_c==1) pc_value <= pc_add + (imm_i << 2);
+        else if(pc_c==1&&a==b) pc_value <= pc_add + (imm_i << 2);
         else if(pc_c==2) pc_value <= {pc_add[31:28], imm_b[25:0], 2'b00};
         else pc_value <= pc_add;
     end

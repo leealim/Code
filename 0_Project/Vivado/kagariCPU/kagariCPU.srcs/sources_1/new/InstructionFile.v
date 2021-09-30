@@ -30,7 +30,7 @@ module InstructionFile(
     
     reg [7:0] mem[255:0];
     initial begin
-    $readmemb("D:\\Documents\\CodeFiles\\Mars_for_cpu\\machinecodevschandled.txt",mem);
+    $readmemb("D:\\Documents\\CodeFiles\\Mars_for_cpu\\TempFile\\machinecodevschandled.txt",mem);
     end
     wire [7:0] addr=inst_addr[7:0];
     assign inst={mem[addr+3],mem[addr+2],mem[addr+1],mem[addr]};
