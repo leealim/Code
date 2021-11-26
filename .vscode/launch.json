@@ -17,7 +17,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/1_TempFile/EXE/${fileBasenameNoExtension}.exe",
-            "args": [],
+            "args": ["12","11","1"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],

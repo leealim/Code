@@ -1,5 +1,5 @@
-public class Log {
-    static void log(String s){
+public class Tool {
+    void log(String s){
         System.out.println(s);
     }
 }
