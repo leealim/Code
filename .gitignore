@@ -1,7 +1,5 @@
 #myIgonre
 **/*TempFile
-0_Project/Vivado/*/*
-!0_Project/Vivado/*/*.srcs
 #init c++
 # Prerequisites
 *.d
